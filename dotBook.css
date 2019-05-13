@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: pixel;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header {
+    padding: 10px;
+}
+
+.middle-content {
+    height: calc(100vh - 4.50rem);
+    display: flex;
+    justify-content: center;
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    background: #FF4136;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.circleStyle {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border-radius: 50%;
+    align-self: center;
+}
