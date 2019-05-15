@@ -41,3 +41,22 @@ body {
     border-radius: 50%;
     align-self: center;
 }
+
+.colorbckgrd {
+    width: 50%;
+    height: 100%;
+    background: #0074D9;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.colorbckgrdLeft {
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: yellow;
+    position: fixed;
+    z-index: -1;
+    
+}
